@@ -1,18 +1,14 @@
 # Mongodb S3 backupper
-
+A tool that allows you to dump, archive, encrypt and upload a MongoDB NoSQL database to any S3 compliant bucket with the ease of a couple of environment variables. You can deploy it on Docker (either standalone or Docker Compose), or just run it directly!
 ## Table Of Contents
 - [Mongodb S3 backupper](#mongodb-s3-backupper)
 	- [Table Of Contents](#table-of-contents)
-	- [Enter mongodb-s3-backupper](#enter-mongodb-s3-backupper)
 	- [Purpose](#purpose)
 	- [Stack](#stack)
 	- [Docker support?](#docker-support)
 	- [Environment variables](#environment-variables)
 	- [Contributing](#contributing)
 	- [License](#license)
-
-## Enter mongodb-s3-backupper
-... a tool that allows you to dump, archive, encrypt and upload a MongoDB NoSQL database to any S3 compliant bucket with the ease of a couple of environment variables.
 
 ## Purpose
 When it comes to databases, I never really trust them. Backups are always necessary but with databases I feel like they're extra relevant. This was the mindset behind this small project: to help me archive MongoDB databases without much effort securely.
