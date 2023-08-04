@@ -11,7 +11,7 @@ A tool that allows you to dump, archive, encrypt and upload a MongoDB NoSQL data
 	- [License](#license)
 
 ## Purpose
-When it comes to databases, I never really trust them. Backups are always necessary but with databases I feel like they're extra relevant. This was the mindset behind this small project: to help me archive MongoDB databases without much effort securely.
+When it comes to databases, I never really trust them. Backups are always necessary but when we're speaking about storing irreplaceable and confidential data, I feel like they're extra relevant. This was the mindset behind mongodb-s3-backupper: to help me securely and effortlessly archive MongoDB databases.
 
 ## Stack
 The stack is extremely simple, since not much is required for what we're trying to achieve:
